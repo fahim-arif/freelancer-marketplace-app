@@ -1,0 +1,10 @@
+/* [OBSOLETE] TO BE REFACTORED - DO NOT USE */
+
+@mixin breakpoint($value) 
+  $breakpoints: ('mobile': $breakpoint-xs, 'tablet-v': $breakpoint-sm, 'tablet-h': $breakpoint-md, 'large': $breakpoint-lg, 'full': $breakpoint-xl)
+  @if map-has-key($breakpoints, $value)
+    @media screen and (min-width: map-get($breakpoints, $value))
+      @content
+  @else
+    @media screen and (min-width: $value)
+      @content

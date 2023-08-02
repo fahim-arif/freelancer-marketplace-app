@@ -1,0 +1,59 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "plugin:react/recommended",
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
+  ],
+  "overrides": [],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module",
+    "project": [
+      "./tsconfig.json"
+    ]
+  },
+  "plugins": [
+    "react",
+    "@typescript-eslint",
+    "prettier"
+  ],
+  "rules": {
+    //not following prettier config results in eslint error
+    "prettier/prettier": [
+      "error"
+    ],
+    // suppress errors for missing 'import React' in files
+    "react/react-in-jsx-scope": "off",
+    //don't allow multiple lines importing from same place
+    "no-duplicate-imports": "error",
+    //remove body when function is single statement
+    "arrow-body-style": [
+      "error",
+      "as-needed"
+    ],
+    //disabled because @typescript-eslint/no-unused-vars replaces this
+    "no-unused-vars": "off",
+    //allow discard variables
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      {
+        "argsIgnorePattern": "^_"
+      }
+    ],
+    //allow console.log but show as warning
+    "no-console": [
+      "warn"
+    ],
+    //allow debugger but show as warning
+    "no-debugger": [
+      "warn"
+    ],
+    "react/prop-types": "off"
+  }
+}

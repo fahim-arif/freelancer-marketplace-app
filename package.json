@@ -1,0 +1,87 @@
+{
+  "name": "shouttapp",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@fontsource/roboto": "^4.5.5",
+    "@microsoft/applicationinsights-react-js": "^3.4.0",
+    "@microsoft/applicationinsights-web": "^2.8.9",
+    "@microsoft/signalr": "^6.0.8",
+    "@mui/icons-material": "^5.6.2",
+    "@mui/lab": "^5.0.0-alpha.102",
+    "@mui/material": "^5.6.3",
+    "@splidejs/react-splide": "^0.7.12",
+    "@stripe/react-stripe-js": "^1.12.0",
+    "@stripe/stripe-js": "^1.38.1",
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.3",
+    "@testing-library/user-event": "^13.5.0",
+    "@tinymce/tinymce-react": "^4.2.0",
+    "@types/croppie": "^2.6.1",
+    "@types/dompurify": "^2.4.0",
+    "@types/jest": "^28.1.7",
+    "@types/node": "^18.7.10",
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "axios": "^0.27.2",
+    "croppie": "^2.6.5",
+    "date-fns": "^2.29.3",
+    "dompurify": "^2.4.1",
+    "file-saver": "^2.0.5",
+    "formik": "^2.2.9",
+    "jest-junit-reporter": "^1.1.0",
+    "react": "^17.0.2",
+    "react-custom-events": "^1.1.1",
+    "react-dom": "^17.0.2",
+    "react-intersection-observer": "^9.4.1",
+    "react-material-ui-carousel": "^3.4.2",
+    "react-multi-carousel": "^2.8.2",
+    "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.0",
+    "sass": "^1.54.5",
+    "ts-simple-nameof": "^1.3.1",
+    "web-vitals": "^2.1.4",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --testResultsProcessor ./node_modules/jest-junit-reporter",
+    "eject": "react-scripts eject",
+    "lint": "eslint ."
+  },
+  "eslintIgnore": [
+    "*.test.tsx",
+    "*.test.ts",
+    "reportWebVitals.ts"
+  ],
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/file-saver": "^2.0.5",
+    "@typescript-eslint/eslint-plugin": "^5.34.0",
+    "eslint": "^8.22.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-config-standard-with-typescript": "^22.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.30.1",
+    "prettier": "^2.8.4",
+    "typescript": "^4.7.4"
+  }
+}

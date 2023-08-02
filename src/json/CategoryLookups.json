@@ -1,0 +1,13 @@
+[
+  { "id": "Design", "label": "Design" },
+  { "id": "Audio", "label": "Audio" },
+  { "id": "Video", "label": "Video" },
+  { "id": "Photo", "label": "Photo" },
+  { "id": "Support/Admin", "label": "Support/Admin" },
+  { "id": "Writing", "label": "Writing" },
+  { "id": "Marketing", "label": "Marketing" },
+  { "id": "Project Management", "label": "Project Management" },
+  { "id": "Agents", "label": "Agents" },
+  { "id": "UGC", "label": "UGC" },
+  { "id": "Community Management", "label": "Community Management" }
+]
